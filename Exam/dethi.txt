@@ -1,0 +1,58 @@
+Bài 1: Xử lý chuỗi
+Viết một chương trình thực hiện các yêu cầu sau:
+Nhập vào một chuỗi từ người dùng.
+Kiểm tra xem chuỗi này có chứa ký tự viết hoa hay không và in kết quả.
+Đếm số lượng chữ số xuất hiện trong chuỗi và in kết quả.
+Thay thế tất cả các ký tự khoảng trắng trong chuỗi bằng dấu gạch ngang - và in chuỗi kết quả.
+Trích xuất tất cả các từ có độ dài lớn hơn hoặc bằng 7 từ chuỗi và in ra màn hình.
+VD:
+Input:
+Nhập một chuỗi: Hello123 World! Python  
+Output:
+Chuỗi có chứa ký tự viết hoa.  
+Số lượng chữ số trong chuỗi: 3  
+Chuỗi sau khi thay thế khoảng trắng: Hello123-World!-Python  
+Các từ có độ dài bằng 7: ['Hello123'] 
+
+Bài 2: Tính tiền điện
+Nhập vào số điện output giá tiền, biết rằng: 50 số đầu tiên có giá 3.000/1 số
+100 số tiếp theo có giá 4.000/1 số, 100 số tiếp theo 5.000/1 số 
+và từ 250 số trở đi thì giá là 10.000/1 số.
+VD: 
+Input: 
+Nhập vào số điện đã sử dụng: 365
+Output: 
+Số tiền điện phải trả là: 2200000 đồng
+
+Bài 3: Dùng máy tính chia động từ
+Input động từ, output động từ thêm ing. Thêm theo các quy tắc sau
+Động từ tận cùng bằng e, bỏ e câm rồi thêm ing
+Động từ tận cùng bằng ie, ta biến ie thàng Y rồi thêm ing
+Nhân đôi phụ âm cuối trước khi thêm ing
+Còn lại chỉ cần thêm ing.
+VD: 
+Input: 
+Động từ tận cùng bằng 'e', bỏ 'e' câm rồi thêm 'ing':
+
+Input: write
+Output: writing
+Input: make
+Output: making
+Động từ tận cùng bằng 'ie', biến 'ie' thành 'y' rồi thêm 'ing':
+
+Input: lie
+Output: lying
+Input: die
+Output: dying
+Nhân đôi phụ âm cuối trước khi thêm 'ing':
+
+Input: run
+Output: running
+Input: sit
+Output: sitting
+Còn lại, chỉ cần thêm 'ing':
+
+Input: play
+Output: playing
+Input: jump
+Output: jumping
