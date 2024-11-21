@@ -121,12 +121,12 @@ def check_bai3():
     return total_points
 
 def main():
-    bai1_points = check_bai1()
+    # bai1_points = check_bai1()
     bai2_points = check_bai2()
     bai3_points = check_bai3()
 
-    total_points = bai1_points + bai2_points + bai3_points
-    print(f"Bài 1: {bai1_points}/4")
+    total_points = + bai2_points + bai3_points
+    # print(f"Bài 1: {bai1_points}/4")
     print(f"Bài 2: {bai2_points}/3")
     print(f"Bài 3: {bai3_points}/3")
     print(f"Tổng điểm: {total_points}/10")

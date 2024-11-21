@@ -7,8 +7,8 @@ Thay thế tất cả các ký tự khoảng trắng trong chuỗi bằng dấu 
 Trích xuất tất cả các từ có độ dài lớn hơn hoặc bằng 7 từ chuỗi và in ra màn hình.
 VD:
 Input:
-Nhập một chuỗi: Hello123 World! Python  
-Output:
+Nhập một chuỗi:   
+Output:Hello123 World! Python
 Chuỗi có chứa ký tự viết hoa.  
 Số lượng chữ số trong chuỗi: 3  
 Chuỗi sau khi thay thế khoảng trắng: Hello123-World!-Python  
