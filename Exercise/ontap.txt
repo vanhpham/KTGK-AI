@@ -1,0 +1,114 @@
+Bài 1: Xử lý chuỗi
+Hãy viết một chương trình Python thực hiện các yêu cầu sau:
+Nhập vào một chuỗi từ người dùng. Kiểm tra xem chuỗi này có bao gồm ký tự in hoa hay không.
+Đếm số lượng ký tự chữ cái và chữ số trong chuỗi đã nhập.
+Thay thế tất cả các ký tự khoảng trắng bằng dấu gạch dưới _.
+Trích xuất tất cả các từ có độ dài lớn hơn 3 từ chuỗi và in ra màn hình.
+VD: 
+Input:
+Nhập chuỗi: "Hello Python 123!"  
+Output:
+Chuỗi có chứa ký tự in hoa.  
+Số lượng chữ cái: 10  
+Số lượng chữ số: 3  
+Chuỗi sau khi thay thế khoảng trắng: Hello_Python_123!  
+Các từ có độ dài lớn hơn 3: ['Hello', 'Python', '123!'] 
+
+
+Bài 2: Xử lý danh sách
+Viết một chương trình thực hiện các yêu cầu sau:
+Nhập vào một danh sách số nguyên từ người dùng (tối thiểu 5 số).
+Tìm và in ra số lớn nhất và số nhỏ nhất trong danh sách.
+Sắp xếp danh sách theo thứ tự giảm dần và in ra.
+Loại bỏ các phần tử trùng lặp và in ra danh sách kết quả.
+Tính tổng của tất cả các số chia hết cho 3 trong danh sách.
+VD:
+Input:
+Nhập danh sách các số nguyên (cách nhau bằng dấu cách): 5 12 7 12 3  
+
+Output:
+Số lớn nhất: 12  
+Số nhỏ nhất: 3  
+Danh sách sắp xếp giảm dần: [12, 12, 7, 5, 3]  
+Danh sách sau khi loại bỏ phần tử trùng lặp: [12, 7, 5, 3]  
+Tổng các số chia hết cho 3: 15 
+
+Bài 3: Làm việc với từ điển(dictionary)
+Hãy viết một chương trình xử lý dữ liệu sinh viên dựa trên từ điển:
+Tạo một từ điển chứa thông tin của 3 sinh viên, với mỗi sinh viên gồm các trường: Họ tên, MSSV, và Điểm trung bình.
+In thông tin của sinh viên có điểm trung bình cao nhất.
+Thêm một sinh viên mới vào từ điển từ dữ liệu người dùng nhập vào.
+Kiểm tra xem trong từ điển có sinh viên nào có điểm trung bình dưới 5 không, nếu có hãy in danh sách các sinh viên này.
+Tính điểm trung bình chung của tất cả các sinh viên trong từ điển.
+VD: 
+Input:
+# Từ điển ban đầu  
+students = {  
+    101: {"Họ Tên": "Vũ Việt A", "MSSV": 101, "Điểm Trung Bình": 8.5},  
+    102: {"Họ Tên": "Đinh Tùng B", "MSSV": 102, "Điểm Trung Bình": 9.0},  
+    103: {"Họ Tên": "Đặng Tùng C", "MSSV": 103, "Điểm Trung Bình": 4.0},  
+}  
+
+# Nhập sinh viên mới:  
+Họ tên: Trịnh Văn D  
+MSSV: 104  
+Điểm trung bình: 5.5  
+
+Output:
+Sinh viên có điểm trung bình cao nhất:  
+{'Họ Tên': 'Đinh Tùng B', 'MSSV': 102, 'Điểm Trung Bình': 9.0}  
+
+Danh sách sinh viên có điểm trung bình dưới 5:  
+{'Họ Tên': 'Đặng Tùng C', 'MSSV': 103, 'Điểm Trung Bình': 4.0}  
+
+Điểm trung bình chung của tất cả sinh viên: 6.75
+
+Bài 4: Làm việc với CSV và Pandas
+Hãy viết một chương trình Python thực hiện các yêu cầu sau:
+Tạo một tệp CSV có tên students.csv với nội dung sau:
+MSSV
+Họ Tên
+Điểm ĐS
+Điểm GT1
+Điểm GT2
+2025
+Trần Hữu A
+8.5
+7.0
+6.5
+2024
+Khuất Đình B
+9.0
+8.0
+7.5
+2026
+Phạm Yến C
+5.5
+6.0
+4.5
+
+Sử dụng thư viện Pandas để đọc nội dung từ tệp students.csv và in toàn bộ bảng ra màn hình.
+Tính điểm trung bình của từng sinh viên và thêm cột Điểm Trung Bình vào bảng.
+Lọc ra danh sách các sinh viên có điểm trung bình >= 7 và lưu vào một tệp mới có tên passed_students.csv.
+Tính điểm trung bình môn Toán của tất cả sinh viên và in ra màn hình.
+Output:
+1. In bảng:
+  MSSV          Họ Tên  Điểm ĐS  Điểm GT1  Điểm GT2  
+0  2025   Trần Hữu A       8.5     7.0     6.5  
+1  2024  Khuất Đình B      9.0     8.0     7.5  
+2  2026   Phạm Yến C       5.5     6.0     4.5  
+
+2. Thêm cột Điểm Trung Bình:
+  MSSV          Họ Tên  Điểm ĐS  Điểm GT1  Điểm GT2  Điểm Trung Bình  
+0  2025   Trần Hữu A       8.5     7.0     6.5            7.33  
+1  2024  Khuất Đình B      9.0     8.0     7.5            8.17  
+2  2026   Phạm Yến C       5.5     6.0     4.5            5.33  
+
+3. Tạo tệp mới passed_students.csv:
+Nội dung tệp passed_students.csv:
+MSSV,Họ Tên,Điểm ĐS,Điểm GT1,Điểm GT2,Điểm Trung Bình  
+2025,Trần Hữu A,8.5,7.0,6.5,7.33  
+2024,Khuất Đình B,9.0,8.0,7.5,8.17  
+
+4. Tính điểm trung bình môn Đại Số:
+Điểm trung bình môn Đại Số của tất cả sinh viên: 7.67 
