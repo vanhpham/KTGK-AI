@@ -14,7 +14,6 @@
 # Chuỗi sau khi thay thế khoảng trắng: Hello_Python_123!  
 # Các từ có độ dài lớn hơn 3: ['Hello', 'Python', '123!'] 
 
-# Bài 1: Xử lý chuỗi
 # Nhập chuỗi từ người dùng
 chuoi = input("Nhập vào một chuỗi: ")
 
